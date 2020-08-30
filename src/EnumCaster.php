@@ -17,6 +17,10 @@ class EnumCaster implements CastsAttributes
      */
     public function get($model, string $key, $value, array $attributes)
     {
+        if (is_null($value)) {
+            return null;
+        }
+
         return $this->enum($model, $key)::from($value);
     }
 
@@ -25,11 +29,13 @@ class EnumCaster implements CastsAttributes
      */
     public function set($model, string $key, $value, array $attributes)
     {
-        if (!$enum = $this->enum($model, $key)) {
-            throw new InvalidArgumentException('The given value is not an instance of ' . Enum::class . '.');
+        if (is_null($value)) {
+            return null;
         }
 
-        if ($isObject = is_object($value) && !$value instanceof $enum) {
+        $enum = $this->enum($model, $key);
+
+        if (($isObject = is_object($value)) && !$value instanceof $enum) {
             throw new InvalidArgumentException("The given value is not an instance of {$enum}.");
         }
 
