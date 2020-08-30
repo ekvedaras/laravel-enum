@@ -1,0 +1,48 @@
+{
+    "name": "ekvedaras/laravel-enum",
+    "description": "Laravel integration for ekvedaras/php-enum",
+    "license": "MIT",
+    "homepage": "https://github.com/ekvedaras/laravel-enum",
+    "keywords": [
+        "ekvedaras",
+        "php",
+        "laravel",
+        "enum",
+        "enumerable"
+    ],
+    "authors": [
+        {
+            "name": "Ernestas Kvedaras",
+            "email": "kvedaras.ernestas@gmail.com",
+            "homepage": "https://github.com/ekvedaras",
+            "role": "author"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EKvedaras\\LaravelEnum\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "ekvedaras/php-enum": "^1.0.1",
+        "illuminate/support": "^6|^7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5.8"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
