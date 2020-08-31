@@ -31,7 +31,7 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "ekvedaras/php-enum": "^1.0.1",
+        "ekvedaras/php-enum": "^1.1",
         "illuminate/support": "^7"
     },
     "require-dev": {
@@ -39,7 +39,8 @@
         "orchestra/testbench": "^5.4"
     },
     "scripts": {
-        "test": "phpunit"
+        "test": "phpunit",
+        "cover": "phpunit --coverage-html=build"
     },
     "config": {
         "sort-packages": true
