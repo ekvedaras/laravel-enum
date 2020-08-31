@@ -1,5 +1,13 @@
 # Laravel Enum
 
+![Tests](https://github.com/ekvedaras/laravel-enum/workflows/run-tests/badge.svg)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ekvedaras/laravel-enum.svg?style=flat)](https://packagist.org/packages/ekvedaras/laravel-enum)
+[![Total Downloads](https://img.shields.io/packagist/dt/ekvedaras/laravel-enum.svg?style=flat)](https://packagist.org/packages/ekvedaras/laravel-enum)
+
+![Twitter Follow](https://img.shields.io/twitter/follow/ekvedaras?style=plastic)
+
+
 This package integrates [ekvedaras/php-enum](https://github.com/ekvedaras/php-enum)
 into Laravel by providing [enum value casting in models](https://laravel.com/docs/7.x/eloquent-mutators#custom-casts) which was introduced in Laravel 7.
 
