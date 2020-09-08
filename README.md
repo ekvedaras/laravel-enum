@@ -92,3 +92,9 @@ $rules = [
     'status' => 'in:' . PaymentStatus::keyString(),
 ];
 ```
+
+## Changelog
+
+See changes in changelog files:
+
+* [v1 changelog](CHANGELOG-1.x.md)

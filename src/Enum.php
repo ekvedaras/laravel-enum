@@ -14,7 +14,7 @@ class Enum extends BaseEnum implements Castable
     /**
      * @inheritDoc
      */
-    public static function castUsing()
+    public static function castUsing(array $arguments = [])
     {
         return EnumCaster::class;
     }
