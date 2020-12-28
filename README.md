@@ -5,6 +5,8 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ekvedaras/laravel-enum.svg?style=flat)](https://packagist.org/packages/ekvedaras/laravel-enum)
 [![Total Downloads](https://img.shields.io/packagist/dt/ekvedaras/laravel-enum.svg?style=flat)](https://packagist.org/packages/ekvedaras/laravel-enum)
 
+<img src="logo.svg" width="192" height="192"/>
+
 ![Twitter Follow](https://img.shields.io/twitter/follow/ekvedaras?style=plastic)
 
 
