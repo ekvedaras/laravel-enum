@@ -1,6 +1,7 @@
 # Laravel Enum
 
 ![Tests](https://github.com/ekvedaras/laravel-enum/workflows/run-tests/badge.svg)
+[![Code Coverage](https://img.shields.io/codecov/c/gh/ekvedaras/laravel-enum/main?style=flat)](https://app.codecov.io/gh/ekvedaras/laravel-enum)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ekvedaras/laravel-enum.svg?style=flat)](https://packagist.org/packages/ekvedaras/laravel-enum)
 [![Total Downloads](https://img.shields.io/packagist/dt/ekvedaras/laravel-enum.svg?style=flat)](https://packagist.org/packages/ekvedaras/laravel-enum)
